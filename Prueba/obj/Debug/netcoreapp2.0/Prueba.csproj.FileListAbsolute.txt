@@ -1,0 +1,11 @@
+c:\users\nikox\source\repos\Prueba\Prueba\bin\Debug\netcoreapp2.0\Prueba.deps.json
+c:\users\nikox\source\repos\Prueba\Prueba\bin\Debug\netcoreapp2.0\Prueba.runtimeconfig.json
+c:\users\nikox\source\repos\Prueba\Prueba\bin\Debug\netcoreapp2.0\Prueba.runtimeconfig.dev.json
+c:\users\nikox\source\repos\Prueba\Prueba\bin\Debug\netcoreapp2.0\Prueba.dll
+c:\users\nikox\source\repos\Prueba\Prueba\bin\Debug\netcoreapp2.0\Prueba.pdb
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.csproj.CoreCompileInputs.cache
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.AssemblyInfoInputs.cache
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.AssemblyInfo.cs
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.dll
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.pdb
+c:\users\nikox\source\repos\Prueba\Prueba\obj\Debug\netcoreapp2.0\Prueba.csprojResolveAssemblyReference.cache

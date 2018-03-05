@@ -1,0 +1,17 @@
+﻿{
+	"Login": {
+		"Email": {
+			"required": true,
+			"email": true
+		},
+		"Password": {
+			"required": true,
+			"min": 8
+		},
+		"Pedos": {
+			"required": true,
+			"min": 1
+		}
+	}
+
+}
