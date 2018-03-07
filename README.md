@@ -1,27 +1,30 @@
 # Model Validation
 Cree este proyecto tratando de salir de una problematica en C# en el framework .NET Core, el cual cuando uno trataba de validar mediante validacion de modelo, este no lo hacia. 
 
-Pasos para que funcione correctamente:
+# Pasos para que funcione correctamente:
 
-Dependencias:
+# Dependencias:
   1-Newtonsoft.Json
   
-Codigo:
-  1-El modelo debe tener una funcion llamada GetValidation() donde retorne un JObject de esta caracteristica:
-  public JObject GetValidation()
-		{
-			return JObject.Parse(@"
-				{
-    'Nombre':{
-        'required':true,
-        'min': 2,
-        'max':150
-    }
-}
-			");
-		}
+# Tipo de validaciones
+	-Requerido(required), valida todos los tipos de datos, hasta listas.
+	-Minimo(min), valida Strings, Integers, Flots, Decimals y Listas.
+	-Maximo(max), valida Strings, Integers, Flots, Decimals y Listas.
+	-Email(email), valida Strings.
+	-Proximamente URIs, Diferentes lenguajes para nombrar a la propiedad o ponerle un apodo.
 
-Se nombra a la propiedad a validar y por ultimo se agrega lo que se intenta validar.
+# Codigo:
+  1-En la razi del proyecto se debe crear un archivo llamado Validation.json con la sigiente estructura:
+  {
+  	"NombreDelModeloAValidar":{
+		"Propiedad1":{
+			"required":true,
+			"min": 10
+		},
+		"Propiedad2":{...}
+	},
+	....
+  }
 
   2-A travez del metodo Validate(Model), le pasamos el modelo a validar
   
