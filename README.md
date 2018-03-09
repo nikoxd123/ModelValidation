@@ -11,7 +11,8 @@ Cree este proyecto tratando de salir de una problematica en C# en el framework .
 	-Minimo(min), valida Strings, Integers, Flots, Decimals y Listas.
 	-Maximo(max), valida Strings, Integers, Flots, Decimals y Listas.
 	-Email(email), valida Strings.
-	-Proximamente URIs, Diferentes lenguajes para nombrar a la propiedad o ponerle un apodo.
+	-URIs(uri), valida Strings.
+	-Proximamente Diferentes lenguajes para nombrar a la propiedad o ponerle un apodo.
 
 # Codigo:
   1-En la razi del proyecto se debe crear un archivo llamado Validation.json con la sigiente estructura:
