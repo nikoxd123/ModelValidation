@@ -1,16 +1,35 @@
 ﻿{
+	"Default-Lang": "es",
 	"Login": {
 		"Email": {
 			"required": true,
-			"email": true
+			"email": true,
+			"lang": {
+				"es": "Correo electronico",
+				"en": "E-mail"
+			}
 		},
 		"Password": {
 			"required": true,
-			"min": 8
+			"min": 8,
+			"lang": {
+				"es": "Contraseña",
+				"en": "Password"
+			}
 		},
-		"Pedos": {
+		"Megas": {
 			"required": true,
-			"min": 1
+			"min": 1,
+			"max": 150,
+			"only-lang": "Mega bytes"
+		},
+		"UriMercado": {
+			"required": true,
+			"uri": true,
+			"lang": {
+				"es": "Direccion web del mercado",
+				"en": "Web address of shop"
+			}
 		}
 	}
 

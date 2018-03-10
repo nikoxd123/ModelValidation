@@ -10,7 +10,8 @@ namespace Prueba.Models
     {
         public String Email { get; set; }
         public String Password { get; set; }
-        public List<String> Pedos { get; set; }
+        public String Megas { get; set; }
+        public String UriMercado { get; set; }
 
         public JObject Validate()
         {

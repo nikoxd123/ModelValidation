@@ -711,11 +711,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikox\\source\\repos\\Prueba\\Prueba\\Prueba.csproj",
+      "projectUniqueName": "C:\\Users\\nikox\\Documents\\ModelValidation\\Prueba\\Prueba.csproj",
       "projectName": "Prueba",
-      "projectPath": "C:\\Users\\nikox\\source\\repos\\Prueba\\Prueba\\Prueba.csproj",
+      "projectPath": "C:\\Users\\nikox\\Documents\\ModelValidation\\Prueba\\Prueba.csproj",
       "packagesPath": "C:\\Users\\nikox\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikox\\source\\repos\\Prueba\\Prueba\\obj\\",
+      "outputPath": "C:\\Users\\nikox\\Documents\\ModelValidation\\Prueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

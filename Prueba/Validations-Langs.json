@@ -1,0 +1,36 @@
+﻿{
+	"es": {
+		"required": "El campo {0} es requerido.",
+		"min": {
+			"string": "El campo {0} debe de tener mas de {1} caracteres.",
+			"int": "El campo {0} debe ser mayor o igual a {1}.",
+			"float-decimal": "El campo {0} debe ser mayor o igual a {1}.",
+			"list-dictionary": "El campo {0} de contenes mas de {1} elementos."
+		},
+		"max": {
+			"string": "El campo {0} debe de tener menos de {1} caracteres.",
+			"int": "El campo {0} debe ser menor o igual a {1}.",
+			"float-decimal": "El campo {0} debe ser menor o igual a {1}.",
+			"list-dictionary": "El campo {0} de contener menos de {1} elementos."
+		},
+		"email": "El campo {0} no es una direccion valida.",
+		"uri": "El campo {0} no es una dirreccion valida."
+	},
+	"en": {
+		"required": "The field {0} is required.",
+			"min": {
+				"string": "The field {0} must be more than {1} characters.",
+				"int": "The field {0} must be greater than or equal to {1}.",
+				"float-decimal": "The field {0}must be greater than or equal to {1}.",
+				"list-dictionary": "The field {0} of contain more than {1} elements."
+			},
+			"max": {
+				"string": "The field {0} must be less than {1} characters.",
+				"int": "\"The field {0} must be less than or equal to {1}.",
+				"float-decimal": "The field {0} must be less than or equal to {1}.",
+				"list-dictionary": "The field {0} to contain less than {1} elements."
+			},
+		"email": "The field {0} is not a valid address.",
+		"uri": "The field {0} is not a valid address."
+	}
+}
