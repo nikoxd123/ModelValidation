@@ -13,6 +13,7 @@ Cree este proyecto tratando de salir de una problematica en C# en el framework .
 	-Email(email), valida Strings.
 	-URIs(uri), valida Strings.
 	-Diferentes lenguajes para nombrar a la propiedad o ponerle un apodo.
+	Proximamente: Cambio de sintaxis, en vez de agregar email: true o Uri: true, se cambiara todo por type: "uri", "date", "datetime" y email
 
 # Codigo:
   1-En la razi del proyecto se debe crear un archivo llamado Validation.json con la sigiente estructura:
